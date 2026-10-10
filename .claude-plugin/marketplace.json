@@ -1,0 +1,29 @@
+{
+  "name": "atsushiootani",
+  "description": "concier-chan's kit — Claude Code plugins by atsushiootani, for working with agents day to day.",
+  "owner": {
+    "name": "atsushiootani",
+    "url": "https://github.com/atsushiootani"
+  },
+  "plugins": [
+    {
+      "name": "prompt-timeline",
+      "displayName": "Prompt Timeline",
+      "source": {
+        "source": "github",
+        "repo": "atsushiootani/prompt-timeline"
+      },
+      "description": "See a day of your own Claude Code work on one page: API-equivalent spend, agent busy time, the hour-by-hour shape, sessions ranked, and the day's moments. Reads only the transcripts on your machine.",
+      "homepage": "https://github.com/atsushiootani/prompt-timeline",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "timeline",
+        "cost",
+        "tokens",
+        "transcripts",
+        "retrospective"
+      ]
+    }
+  ]
+}
