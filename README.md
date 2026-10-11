@@ -37,6 +37,7 @@ Or do both in one go from inside a session (Claude Code 2.1.275 or later):
 | Plugin | What it does | Run |
 |---|---|---|
 | [**Prompt Timeline**](https://github.com/atsushiootani/prompt-timeline) | A one-page view of a day of your own Claude Code work: API-equivalent spend, agent busy time, the hour-by-hour shape, sessions ranked, and the day's moments. Reads only the transcripts on your machine. | `/prompt-timeline:build` |
+| [**ubiqdoc**](https://github.com/atsushiootani/ubiqdoc) | A local document reader: drag any phrase and ask the AI on the spot. Answers are written back into the document as popovers, child sections or links, and several questions can run in parallel. Needs Node 18+ and a logged-in `claude` CLI. | `/ubiqdoc:open <file.html>` |
 
 ## Updates
 

@@ -37,6 +37,7 @@ Claude Code 2.1.275 以降なら、セッションの中から 1 行で両方済
 | プラグイン | なにをするか | 呼び出し |
 |---|---|---|
 | [**Prompt Timeline**](https://github.com/atsushiootani/prompt-timeline) | 自分の Claude Code の 1 日を 1 枚のページにする。API 換算の金額、エージェントの稼働時間、時間帯ごとの形、セッションの順位、その日の瞬間。手元の transcript しか読まない。 | `/prompt-timeline:build` |
+| [**ubiqdoc**](https://github.com/atsushiootani/ubiqdoc) | ドキュメントを読みながら、語句をドラッグしたその場で AI に聞けるリーダー。答えはポップオーバー・子セクション・リンクとして文書に書き込まれ、前の返答を待たずに何個でも聞ける。Node 18 以上と、ログイン済みの `claude` CLI が要る。 | `/ubiqdoc:open <file.html>` |
 
 ## 更新
 
